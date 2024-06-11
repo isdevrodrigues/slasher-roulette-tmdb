@@ -5,7 +5,9 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const app = express();
-const port = 3000;
+
+// Use the PORT provided by Railway or default to 3000
+const port = process.env.PORT || 3000;
 
 app.use(express.static('public'));
 
@@ -28,5 +30,5 @@ app.get('/api/movie', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server is running on http://localhost:${port}`);
+    console.log(`Server is running on port ${port}`);
 });
