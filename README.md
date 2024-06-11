@@ -1,4 +1,4 @@
-# [ViewDemo] (https://slasher-roulette-tmdb-production.up.railway.app/)
+# [ViewDemo](https://slasher-roulette-tmdb-production.up.railway.app/)
 
 ## About
 Slasher Roulette is a web app that recommends random slasher movies. Click the button, and get a surprise slasher movie with details and a link to its TMDB profile.
