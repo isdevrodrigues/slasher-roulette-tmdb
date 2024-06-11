@@ -1,0 +1,55 @@
+body {
+    font-family: 'Inter', Tahoma, Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #322C2B;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    background: #803D3B;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+#movieContainer {
+    margin-top: 20px;
+}
+
+#movieContainer img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#recommendButton {
+    padding: .8rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+#recommendButton:hover {
+    background-color: brown;
+    color: white;
+    box-shadow: #322C2B 3px 3px 3px;
+    cursor: pointer;
+}
+
+#recommendButton:active {
+    background-color: chocolate;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+}
