@@ -18,9 +18,9 @@ async function getRandomMovie() {
 }
 
 function displayMovie(movie) {
-    const movieContainer = document.querySelector('.container');
-    movieContainer.innerHTML = `
-        <div class="content-box">
+    const resultsContainer = document.querySelector('.displayResults');
+    resultsContainer.innerHTML = `
+        <div class="movie-box">
             <a href="https://www.themoviedb.org/movie/${movie.id}" target="_blank">
                 <h2>${movie.title}</h2>
             </a>
@@ -31,9 +31,9 @@ function displayMovie(movie) {
 }
 
 function displayError(message) {
-    const movieContainer = document.querySelector('.container');
-    movieContainer.innerHTML = `
-        <div class="content-box">
+    const resultsContainer = document.querySelector('.displayResults');
+    resultsContainer.innerHTML = `
+        <div class="error-box">
             <p>${message}</p>
         </div>
     `;

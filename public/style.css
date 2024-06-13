@@ -16,9 +16,11 @@ h1 {
 
 .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    text-align: center;
 }
 
 .content-box {
@@ -56,4 +58,43 @@ h1 {
 
 .recommend-button:hover {
     background-color: #c53030;
+}
+
+.displayResults {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 28rem;
+}
+
+.movie-box {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #4a5568;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.movie-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.movie-box p {
+    margin-bottom: 1rem;
+    color: #cbd5e0;
+}
+
+.movie-box img {
+    max-width: 100%;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.error-box {
+    margin-top: 1rem;
+    padding: .5rem;
+    background-color: darkred;
+    color: #fff;
+    border-radius: 0.5rem;
+    text-align: center;
 }
